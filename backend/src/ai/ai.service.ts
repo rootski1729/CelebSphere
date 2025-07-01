@@ -1,6 +1,6 @@
 import { Injectable, BadRequestException, InternalServerErrorException } from '@nestjs/common';
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { DiscoverCelebrityDto, CelebritySuggestion, DiscoverCelebrityResponseDto } from './discover-celebrity.dto';
+import { DiscoverCelebrityDto, CelebritySuggestion, DiscoverCelebrityResponseDto } from './dto/discover-celebrity.dto';
 
 @Injectable()
 export class AiService {
